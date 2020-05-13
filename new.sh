@@ -15,7 +15,12 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 scienc
 echo "-------------------开始安装基本工具---------------------------------------------------------------------------------------"
 #安装基本工具
 pkg update
-pkg install vim curl wget git tree termux-auth -y
+pkg install vim -y
+pkg install curl -y
+okg install wget -y
+pkg install git -y 
+pkg install tree -y
+termux-auth -y
 
 
 #改密码
