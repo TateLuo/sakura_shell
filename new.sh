@@ -14,7 +14,7 @@ echo "deb https://mirrors.tuna.tsinghua.edu.cn/termux/science-packages-24 scienc
 
 echo "-------------------开始安装基本工具---------------------------------------------------------------------------------------"
 #安装基本工具
-pkg update
+pkg update -y
 pkg install vim -y
 pkg install curl -y
 okg install wget -y
